@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Verificação de nacionalidade</h1>
+
+Qual seu país de origem? <input type="text" name="origem" id="origem"> <input type="button" value="verifica" onclick="confere()">
+<br>
+<div id="resp">
+
+</div>
+
+
+<script>
+ 
+ function confere(){ 
+var país = window.document.getElementById('origem')  
+var vel = String(país.value)/* Esqueci do .value antes, preciso lembrar*/
+var verif = document.getElementById('resp')
+
+if (vel == 'Brasil'){
+    verif.innerHTML = `Você é <strong>${vel}</strong>`
+}else {
+    verif.innerHTML = `Você é <strong>estrangeiro</strong>`
+}
+
+ }   
+</script>
+</body>
+</html>

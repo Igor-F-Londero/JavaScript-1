@@ -1,0 +1,19 @@
+Welcome to Node.js v22.17.0.
+Type ".help" for more information.
+> var s = "javascript"
+undefined
+> "eu estou estudando " + s
+'eu estou estudando javascript'
+> var nome = "gustavo"
+undefined
+> var nota = 7.8
+undefined
+> let sitação = 'Aprovado'
+undefined
+> 'O aluno ' + nome + ' tirou nota ' + nota + ' e está ' + situação
+Uncaught ReferenceError: situação is not defined
+> 'O aluno ' + nome + ' tirou nota ' + nota + ' e está ' + sitação
+'O aluno gustavo tirou nota 7.8 e está Aprovado'
+> `o aluno ${nome} tirou nota ${nota} e está ${sitação}`
+'o aluno gustavo tirou nota 7.8 e está Aprovado'
+>
