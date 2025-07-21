@@ -6,13 +6,13 @@ if (velocidade > 80 ) {
 }
 console.log(` dirija com cuidado!`)*/
 
-/* var país = 'Inglaterra'
+ var país = 'Inglaterra'
 console.log(`mora no(a) ${país}`)
 if (país == 'Brasil'){
-    console.log(` você é Brasileiro AQUI É BRASIL!!!!`)
+    console.log(` você é Brasileiro `)
 } else {
-    console.log(`You speak inglixi mai frendi?`)
-}*/
+    console.log(`You are English `)
+}
 
 
 
